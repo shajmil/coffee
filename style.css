@@ -1,0 +1,303 @@
+.container {
+    max-width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.small {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.small-text {
+    position: fixed;
+    bottom: 10px;
+    right: 75px;
+    background-color: gainsboro;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.sticky {
+    display: flex;
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+    color: #533523;
+    cursor: pointer;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #533523;
+    cursor: pointer;
+}
+
+html {
+    background-image: url(https://themes.muffingroup.com/be/coffee/wp-content/uploads/2015/01/home_coffee_pattern.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+body {
+    font-family: 'Droid Serif', Helvetica, Arial, sans-serif;
+}
+
+.bgimg {
+    opacity: 0.05;
+}
+
+img {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+}
+
+ul {
+    z-index: 9999;
+    font-family: inherit;
+    color: black;
+    font-size: 24px;
+    font-style: italic;
+    list-style-type: none;
+    color: #533523;
+}
+
+.left {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    height: 220px;
+    margin-left: 250px;
+}
+
+.li::after {
+    content: '';
+    position: absolute;
+    background: url(https://themes.muffingroup.com/be/coffee/wp-content/uploads/2015/01/home_coffee_menu_sep.png) no-repeat;
+    height: 10px;
+    width: 8px;
+    left: 390px;
+    top: 110px;
+    margin-top: -4px;
+    z-index: 99;
+}
+
+.logo-main {
+    width: 200px;
+    max-height: 187px;
+}
+
+.Right {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    height: 220px;
+    margin-left: 350px;
+}
+
+.last {
+    margin-left: 0px;
+}
+
+.Right::after {
+    content: '';
+    position: absolute;
+    background: url(https://themes.muffingroup.com/be/coffee/wp-content/uploads/2015/01/home_coffee_menu_sep.png) no-repeat;
+    height: 10px;
+    width: 8px;
+    left: 1138px;
+    top: 110px;
+    margin-top: -4px;
+    z-index: 99;
+}
+
+.coffee {
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+h2,
+h4 {
+    font-family: 'Droid Serif', Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-style: italic;
+    color: #533523;
+}
+
+.middle {
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.flex {
+    flex-direction: column;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.types {
+    justify-content: space-between;
+    height: 100px;
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+h4 {
+    display: block;
+    font-size: 21px;
+    color: #755d4f;
+}
+
+h5 {
+    margin-top: 91px;
+    color: #9f7962;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-style: italic;
+}
+
+.type {
+    width: 250px;
+    margin-top: 0px;
+}
+
+p {
+    color: #867b6d;
+    height: 300px;
+}
+
+.gallery {
+    background-color: #f4f4f4;
+    height: 1200px;
+    padding-top: 30px;
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-style: italic;
+    color: #533523;
+    margin-bottom: 15px;
+    font-family: 'Droid Serif', Helvetica, Arial, sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.cof-img {
+    height: 300px;
+    width: 250px;
+}
+
+.flex1 {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+}
+
+.gal-img {
+    width: 100%;
+    height: 100%;
+}
+
+.box-img {
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.box-img:hover {
+    transform: translateY(-1.2rem);
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    padding: 5px;
+    border: none;
+    width: 350px;
+    border-radius: 10px;
+    font-family: 'Droid Serif', Helvetica, Arial, sans-serif;
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.formBox {
+    height: 350px;
+}
+
+.footer {
+    width: 100%;
+    color: #b3aea8;
+    padding-bottom: 25px;
+    background-color: #39291f;
+}
+
+.foot-head {
+    padding-top: 35px;
+    color: #b3aea8;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 55px;
+    margin-top: -75px;
+}
+
+.foot h5 {
+    color: white;
+    margin-bottom: -8.93px;
+}
+
+.foot li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #b3aea8;
+}
+
+.footul {
+    padding-left: 0px;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
